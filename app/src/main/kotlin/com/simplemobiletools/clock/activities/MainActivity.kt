@@ -38,6 +38,8 @@ class MainActivity : SimpleActivity() {
         storeStateVariables()
         initFragments()
 
+
+        
         if (getNextAlarm().isEmpty()) {
             Thread {
                 rescheduleEnabledAlarms()
